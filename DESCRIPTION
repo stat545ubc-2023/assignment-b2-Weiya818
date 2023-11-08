@@ -3,7 +3,7 @@ Title: Plot a density plot
 Version: 0.1.0
 Authors@R: 
     person("Weiya", "Zhu", , "weiyazhu@student.ubc.ca", role = c("aut", "cre"))
-Description:The AssignmentB2 package provides an efficient way to create a density plot through the density_plot function. It creates a density plot wiht alpha=0.5 based on the given inputs, dataset, x, and fill values, using ggplot2. This function can be used as a visualization tool to represent the distribution of a continuous numeric variable (x) across multiple fills(categorical values).
+Description:The AssignmentB2 package provides an efficient way to create a density plot through the density_plot function. It creates a density plot with alpha=0.5 based on the given inputs, dataset, x, and fill values, using ggplot2. This package can be used as a visualization tool to represent the distribution of a continuous numeric variable (x) across multiple fills(categorical values).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
