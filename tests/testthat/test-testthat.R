@@ -1,5 +1,5 @@
-library(datateachr)
 library(ggplot2)
+library(datateachr)
 
 test_that("Test 1: Function creates a ggplot with a custom x-axis name", {
   expected_val <- density_plot(cancer_sample, cancer_sample$radius_mean, cancer_sample$diagnosis,"Radius_Mean")
