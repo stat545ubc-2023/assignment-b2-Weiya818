@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2023 AssignmentB2 authors
+Copyright (c) 2023 Weiya_Zhu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
