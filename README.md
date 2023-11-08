@@ -25,14 +25,14 @@ devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
     ## Downloading GitHub repo stat545ubc-2023/assignment-b2-Weiya818@HEAD
 
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpDfXyYo/remotes26c866f5f07d/stat545ubc-2023-assignment-b2-Weiya818-b2a91da/DESCRIPTION’ ... OK
+    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpTGY9jz/remotes28341228dbd4/stat545ubc-2023-assignment-b2-Weiya818-7bd5bfb/DESCRIPTION’ ... OK
     ## * preparing ‘AssignmentB2’:
     ## * checking DESCRIPTION meta-information ... OK
     ## * checking for LF line-endings in source and make files and shell scripts
     ## * checking for empty or unneeded directories
     ## * building ‘AssignmentB2_0.1.0.tar.gz’
 
-    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpJD3S90/temp_libpath1dd62737eb6d'
+    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpJD3S90/temp_libpath1dd665485688'
     ## (as 'lib' is unspecified)
 
 ## Example
