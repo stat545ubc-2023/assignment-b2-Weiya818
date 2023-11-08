@@ -31,21 +31,21 @@ devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
 
     ## Installing 5 packages: rlang, lifecycle, utf8, fansi, ggplot2
 
-    ## Installing packages into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath39226c77c4eb'
+    ## Installing packages into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath392227b30c7a'
     ## (as 'lib' is unspecified)
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T//RtmpIuLeeR/downloaded_packages
+    ##  /var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T//RtmpDQN0X3/downloaded_packages
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpIuLeeR/remotesaabd5c31963f/stat545ubc-2023-assignment-b2-Weiya818-92ca69f/DESCRIPTION’ ... OK
+    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpDQN0X3/remotesad5c4c20bc92/stat545ubc-2023-assignment-b2-Weiya818-228fe0f/DESCRIPTION’ ... OK
     ## * preparing ‘AssignmentB2’:
     ## * checking DESCRIPTION meta-information ... OK
     ## * checking for LF line-endings in source and make files and shell scripts
     ## * checking for empty or unneeded directories
     ## * building ‘AssignmentB2_0.1.0.tar.gz’
 
-    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath39226c77c4eb'
+    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath392227b30c7a'
     ## (as 'lib' is unspecified)
 
 ## Example
@@ -58,6 +58,4 @@ library(AssignmentB2)
 density_plot(data = datateachr::cancer_sample, x = datateachr::cancer_sample$radius_mean, fill = datateachr::cancer_sample$diagnosis, x_axis_name = "radius_mean")
 ```
 
-![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- --> ![Included
-the generated file here to show the result in README
-file](README_files/figure-gfm/unnamed-chunk-2-1.png)
+![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
