@@ -7,14 +7,13 @@ output: github_document
 
 ## Density Plot
 
-The AssignmentB2 package provides an efficient way to create a density plot through the density_plot function. It creates a density plot with alpha=0.5 based on the given inputs, dataset, x, and fill values, using ggplot2. This package can be used as a visualization tool to represent the distribution of a continuous numeric variable (x) across multiple fills(categorical values).
+The AssignmentB2 package provides an efficient way to create a density plot through the `density_plot` function. It creates a density plot with alpha=0.5 based on the given inputs, dataset, x, and fill values, using ggplot2. This package can be used as a visualization tool to represent the distribution of a continuous numeric variable (x) across multiple fills(categorical values).
 
 ## Installation
 
 You can install the development version of Density Plot with the following instructions:
 
 ```{r}
-# install.packages("devtools")
 devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
 ```
 
