@@ -1,4 +1,4 @@
-Density Plot Generator
+Density Plot Package
 ================
 Weiya Zhu
 2023-11-07
@@ -24,14 +24,14 @@ devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
     ## Downloading GitHub repo stat545ubc-2023/assignment-b2-Weiya818@HEAD
 
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpN6OzAB/remotes35c13c0787dc/stat545ubc-2023-assignment-b2-Weiya818-30732a6/DESCRIPTION’ ... OK
+    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpufcCIG/remotes37f956ba865b/stat545ubc-2023-assignment-b2-Weiya818-5cb9642/DESCRIPTION’ ... OK
     ## * preparing ‘AssignmentB2’:
     ## * checking DESCRIPTION meta-information ... OK
     ## * checking for LF line-endings in source and make files and shell scripts
     ## * checking for empty or unneeded directories
     ## * building ‘AssignmentB2_0.1.0.tar.gz’
 
-    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpJD3S90/temp_libpath1dd616a36358'
+    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpJD3S90/temp_libpath1dd622a12b3f'
     ## (as 'lib' is unspecified)
 
 ## Example

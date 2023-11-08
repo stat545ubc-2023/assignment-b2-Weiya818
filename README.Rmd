@@ -1,5 +1,5 @@
 ---
-title: "Density Plot Generator"
+title: "Density Plot Package"
 author: "Weiya Zhu"
 date: "2023-11-07"
 output: github_document
