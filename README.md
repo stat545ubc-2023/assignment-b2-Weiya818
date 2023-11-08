@@ -23,15 +23,29 @@ devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
 
     ## Downloading GitHub repo stat545ubc-2023/assignment-b2-Weiya818@HEAD
 
+    ## rlang     (1.1.1 -> 1.1.2) [CRAN]
+    ## lifecycle (1.0.3 -> 1.0.4) [CRAN]
+    ## utf8      (1.2.3 -> 1.2.4) [CRAN]
+    ## fansi     (1.0.4 -> 1.0.5) [CRAN]
+    ## ggplot2   (3.4.3 -> 3.4.4) [CRAN]
+
+    ## Installing 5 packages: rlang, lifecycle, utf8, fansi, ggplot2
+
+    ## Installing packages into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath39226c77c4eb'
+    ## (as 'lib' is unspecified)
+
+    ## 
+    ## The downloaded binary packages are in
+    ##  /var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T//RtmpIuLeeR/downloaded_packages
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/Rtmps28Il5/remotes6a275e22d325/stat545ubc-2023-assignment-b2-Weiya818-9a36334/DESCRIPTION’ ... OK
+    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpIuLeeR/remotesaabd5c31963f/stat545ubc-2023-assignment-b2-Weiya818-92ca69f/DESCRIPTION’ ... OK
     ## * preparing ‘AssignmentB2’:
     ## * checking DESCRIPTION meta-information ... OK
     ## * checking for LF line-endings in source and make files and shell scripts
     ## * checking for empty or unneeded directories
     ## * building ‘AssignmentB2_0.1.0.tar.gz’
 
-    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath39226b730f69'
+    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath39226c77c4eb'
     ## (as 'lib' is unspecified)
 
 ## Example
@@ -39,9 +53,11 @@ devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
 This is an example showing how to generate the density plot using this
 package.
 
-<figure>
-<img src="README_files/figure-gfm/unnamed-chunk-2-1.png"
-alt="Included the generated file here to show the result in README file" />
-<figcaption aria-hidden="true">Included the generated file here to show
-the result in README file</figcaption>
-</figure>
+``` r
+library(AssignmentB2)
+density_plot(data = datateachr::cancer_sample, x = datateachr::cancer_sample$radius_mean, fill = datateachr::cancer_sample$diagnosis, x_axis_name = "radius_mean")
+```
+
+![](README_files/figure-gfm/unnamed-chunk-2-1.png)<!-- --> ![Included
+the generated file here to show the result in README
+file](README_files/figure-gfm/unnamed-chunk-2-1.png)
