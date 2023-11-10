@@ -10,8 +10,8 @@
 #' @param fill A variable in the dataset, it is one of the variable being investigated
 #' @param x_axis_name This is the name of the x-axis given by the user who uses this function
 #'
-#' @examples
-#'density_plot(data = datateachr::cancer_sample, x = datateachr::cancer_sample$radius_mean,
+#'
+#'@examples density_plot(data = datateachr::cancer_sample, x = datateachr::cancer_sample$radius_mean,
 #'fill = datateachr::cancer_sample$diagnosis, x_axis_name = "radius_mean")
 #'
 #' @return A density plot with value of x in x-axis across different fills and density as the y-axis
