@@ -31,24 +31,30 @@ devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
 
     ## Installing 5 packages: rlang, lifecycle, utf8, fansi, ggplot2
 
-    ## Installing packages into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath392217219d9b'
+    ## Installing packages into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath392219f8bfce'
     ## (as 'lib' is unspecified)
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T//Rtmpd6oWup/downloaded_packages
+    ##  /var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T//RtmpuO7UfH/downloaded_packages
     ## ── R CMD build ─────────────────────────────────────────────────────────────────
-    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/Rtmpd6oWup/remotesea99176042d/stat545ubc-2023-assignment-b2-Weiya818-b80b3e4/DESCRIPTION’ ... OK
+    ## * checking for file ‘/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpuO7UfH/remotesed5f30338a0b/stat545ubc-2023-assignment-b2-Weiya818-54947ce/DESCRIPTION’ ... OK
     ## * preparing ‘AssignmentB2’:
     ## * checking DESCRIPTION meta-information ... OK
     ## * checking for LF line-endings in source and make files and shell scripts
     ## * checking for empty or unneeded directories
     ## * building ‘AssignmentB2_0.1.0.tar.gz’
 
-    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath392217219d9b'
+    ## Installing package into '/private/var/folders/8j/hvsc33bn3yx9j55rcgnwlsfr0000gn/T/RtmpWOVCHg/temp_libpath392219f8bfce'
     ## (as 'lib' is unspecified)
 
 ## Usage
+
+Currently, AssignmentB2 package only contains one function, which is
+about plotting a density plot for the given `data`, `x value`,
+`fill value` and `x-axis name`.
+
+## Example
 
 This is an example showing how to generate the density plot using this
 package.
