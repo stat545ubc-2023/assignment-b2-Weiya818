@@ -17,7 +17,7 @@ You can install the development version of Density Plot with the following instr
 devtools::install_github("stat545ubc-2023/assignment-b2-Weiya818")
 ```
 
-## Example
+## Usage
 
 This is an example showing how to generate the density plot using this package.
 
