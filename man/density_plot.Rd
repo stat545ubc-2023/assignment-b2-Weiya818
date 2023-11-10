@@ -9,18 +9,17 @@ density_plot(data, x, fill, x_axis_name)
 \arguments{
 \item{data}{The input dataset}
 
-\item{x}{A continuous numerical variable in the dataset, it is one of the variable
-being investigated}
+\item{x}{A continuous numerical variable in the dataset, it is one of the variables being investigated}
 
-\item{fill}{A variable in the dataset, it is one of the variable being investigated}
+\item{fill}{A variable in the dataset, it is one of the variables being investigated}
 
 \item{x_axis_name}{This is the name of the x-axis given by the user who uses this function}
 }
 \value{
-A density plot with value of x in x-axis across different fills and density as the y-axis
+A density plot with the value of x in x-axis across different fills and density as the y-axis
 }
 \description{
-The density_plot function creates a density plot wiht alpha=0.5
+The density_plot function creates a density plot with alpha=0.5
 based on the given inputs, dataset, x, and fill values, using ggplot2.
 This function can be used as a visualization tool to represent the
 distribution of a continuous numeric variable (x) across multiple fills(categorical values).
